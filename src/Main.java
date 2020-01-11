@@ -22,5 +22,12 @@ public class Main {
         System.out.println("年齢を入力してください");
         int age =new java.util.Scanner(System.in).nextInt(); //入力した数字をint型で保存する命令
         System.out.println(age + "歳の" + name + "君！！君の個人情報はGoogleに売ったよ！");
+        System.out.println("true か false を入力してね！");
+        boolean if_sentaku =new java.util.Scanner(System.in).nextBoolean();
+        if (if_sentaku == true) { //入力した文字がtrue だったらゲームクリア
+            System.out.println("おめでとう！！ゲームクリア！！");
+        } else { //false だったらゴミみたいな扱いに
+            System.out.println("雑魚が・・・");
+        }
     }
 }
