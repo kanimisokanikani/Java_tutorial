@@ -4,8 +4,8 @@ public class Sub {
         money ++; //money に1足す演算
         System.out.println("所持金は" + money + "円です");
 
-        System.out.print("うんち！！"); //改行されないprint
-        System.out.println("ぶりゅりゅ！www");
+        System.out.print("ねむ"); //改行されないprint
+        System.out.println("たい・・・");
 
         int low = 10;
         int high = 11;
@@ -20,32 +20,40 @@ public class Sub {
         System.out.println("私はキン消しを" + ++random + "個持ってます！");
 
         System.out.println("名前を入力してください");
-        String name =new java.util.Scanner(System.in).nextLine(); //入力した文字をString型で保存する命令
+        String name = new java.util.Scanner(System.in).nextLine(); //入力した文字をString型で保存する命令
         System.out.println("年齢を入力してください");
-        int age =new java.util.Scanner(System.in).nextInt(); //入力した数字をint型で保存する命令
+        int age = new java.util.Scanner(System.in).nextInt(); //入力した数字をint型で保存する命令
         System.out.println(age + "歳の" + name + "君！！君の個人情報はGoogleに売ったよ！");
 
         System.out.println("true か false を入力してね！");
-        boolean if_sentaku =new java.util.Scanner(System.in).nextBoolean();
+        boolean if_sentaku = new java.util.Scanner(System.in).nextBoolean();
         if (if_sentaku == true) { //入力した文字がtrue だったらゲームクリア
             System.out.println("おめでとう！！ゲームクリア！！");
         } else { //false だったらゴミみたいな扱いに
             System.out.println("雑魚が・・・");
         }
 
-        if_sentaku =new java.util.Scanner(System.in).nextBoolean();
+        if_sentaku = new java.util.Scanner(System.in).nextBoolean();
         while (if_sentaku == true) { //true を選択すると、陽キャに永遠絡まれる
             System.out.println("うぇ〜いwwwwwww");
             System.out.println("うぇ〜いwwwwwww");
         }
 
-        boolean int_test = true;
-        if (int_test == true) {
+        boolean if_int_test = true;
+        if (if_int_test == true) {
             int if_int = 10;
-            System.out.println( if_int );
+            System.out.println(if_int);
         } else {
             System.out.println("このメッセージは表示されないはずだよ");
         }
         //System.out.println( if_int ); //ifなどの中でintなどの変数を作っても、ifを抜けたらその変数は消滅する
+
+        System.out.println("パスワードを入力してください");
+        String string_if_test = new java.util.Scanner(System.in).nextLine();
+        if (string_if_test.equals("test")) { // 変数名.equals("文字") でパスワードのようなものが作れる
+            System.out.println("なんで分かるんあんた・・・");
+        } else {
+            System.out.println("パスワードが間違っています");
+        }
     }
 }
