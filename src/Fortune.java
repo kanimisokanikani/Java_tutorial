@@ -18,7 +18,7 @@ public class Fortune {
 
         String prefix = "[時給450円の占い師] ";
         String get_name = "";
-        int get_age = 0;
+        int get_age = 300;
 
 
         //////////////////
@@ -57,15 +57,31 @@ public class Fortune {
         TimeUnit.MILLISECONDS.sleep(2750);
         System.out.println(prefix + "年齢は？");
 
-        try {
-            get_age = new java.util.Scanner(System.in).nextInt();
-        } catch (Exception e) { //数字以外の文字が入力されたらエラーメッセージを流し、数字を入力するまで繰り返す
-            System.out.println(prefix + "数字を超越したサバ読みは卑怯だよ!");
-            System.out.println(prefix + "ちゃんと数字で言いなさい!");
-            System.out.println(prefix + "数字で言うまで帰さないからね!");
-            System.out.println(prefix + "結局あんたは何歳なのよ");
-        }
+        do{
+            try {
+                get_age = new java.util.Scanner(System.in).nextInt();
+            } catch (Exception e) { //例外が起きたらエラーメッセージを流す
+                System.out.println(prefix + "数字を超越したサバ読みは卑怯だよ!");
+                System.out.println(prefix + "ちゃんと数字で言いなさい!");
+                System.out.println(prefix + "数字で言うまで帰さないからね!");
+                System.out.println(prefix + "結局あんたは何歳なのよ");
+                continue;
+            }
+            if (get_age > 130) {
+                System.out.println(prefix + "あんた歳取りすぎて無い？");
+                System.out.println(prefix + "年齢差でマウント取りたいからって");
+                System.out.println(prefix + "そんな詐称するのは見苦しいわよ!!");
+                System.out.println(prefix + "結局あんたは何歳なのよ");
+            } else {
+                break;
+            }
+        } while(get_age > 130);
 
+
+
+        ///////////////
+        // 占いタイム //
+        ///////////////
 
 
         TimeUnit.MILLISECONDS.sleep(1000);
@@ -75,19 +91,19 @@ public class Fortune {
 
         switch (get_fortune) {
             case "恋愛":
-                System.out.println("test1");
+                System.out.println(prefix + "まだ開発中よ");
                 break;
 
             case "仕事":
-                System.out.println("test2");
+                System.out.println(prefix + "まだ開発中よ");
                 break;
 
             case "健康":
-                System.out.println("test3");
+                System.out.println(prefix + "まだ開発中よ");
                 break;
 
             case "周囲からの評価":
-                System.out.println("test4");
+                System.out.println(prefix + "まだ開発中よ");
                 break;
 
             default:

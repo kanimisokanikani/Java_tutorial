@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578846997775</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="例外処理 (名前を名乗らない場合無限ループ) を追加などなど">
+      <created>1578849034031</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578849034031</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,7 +180,8 @@
     <MESSAGE value="Mainクラスがぐちゃぐちゃになってきたので、&#10;サブに使わないコードを輸送" />
     <MESSAGE value="Main Class はコードの実験場に&#10;Sub Class はコードのアーカイブに使用" />
     <MESSAGE value="インチキ占いコード(製作中)を追加" />
-    <option name="LAST_COMMIT_MESSAGE" value="インチキ占いコード(製作中)を追加" />
+    <MESSAGE value="例外処理 (名前を名乗らない場合無限ループ) を追加などなど" />
+    <option name="LAST_COMMIT_MESSAGE" value="例外処理 (名前を名乗らない場合無限ループ) を追加などなど" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1578611284611">
@@ -189,35 +197,35 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="436" y="159" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1440.822@0.23.1440.822" timestamp="1578612224361" />
-    <state x="344" y="14" key="CommitChangelistDialog2" timestamp="1578846997617">
+    <state x="344" y="14" key="CommitChangelistDialog2" timestamp="1578849033878">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="344" y="14" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578846997617" />
+    <state x="344" y="14" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578849033878" />
     <state x="344" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578612321234" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578848815038">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578850762843">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578848815038" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578848815036">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578850762843" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578850762842">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578848815036" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578848815036">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578850762842" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578850762841">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578848815036" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578848815037">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578850762841" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578850762843">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578848815037" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578850762843" />
     <state x="487" y="168" key="RollbackChangesDialog" timestamp="1578840462137">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="487" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578840462137" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578846999829">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578849035565">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578846999829" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578849035565" />
     <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578612323789" />
     <state x="0" y="23" width="1440" height="822" key="com.intellij.ide.util.TipDialog" timestamp="1578611701077">
       <screen x="0" y="23" width="1440" height="822" />
