@@ -28,7 +28,7 @@ public class Fortune {
         TimeUnit.MILLISECONDS.sleep(6000);
         System.out.println(prefix + "あなたの名前は何かしら？");
 
-        while (get_name.equals("")) { //名前が何も無い場合無限ループ
+        while (true) { //名前が何も無い場合無限ループ
             get_name = new java.util.Scanner(System.in).nextLine();
             if (get_name.equals("")) {
                 TimeUnit.MILLISECONDS.sleep(500);
@@ -57,25 +57,33 @@ public class Fortune {
         TimeUnit.MILLISECONDS.sleep(2750);
         System.out.println(prefix + "年齢は？");
 
-        do{
+        while (true) {
             try {
                 get_age = new java.util.Scanner(System.in).nextInt();
             } catch (Exception e) { //例外が起きたらエラーメッセージを流す
+                TimeUnit.MILLISECONDS.sleep(1250);
                 System.out.println(prefix + "数字を超越したサバ読みは卑怯だよ!");
+                TimeUnit.MILLISECONDS.sleep(1750);
                 System.out.println(prefix + "ちゃんと数字で言いなさい!");
+                TimeUnit.MILLISECONDS.sleep(2000);
                 System.out.println(prefix + "数字で言うまで帰さないからね!");
+                TimeUnit.MILLISECONDS.sleep(1750);
                 System.out.println(prefix + "結局あんたは何歳なのよ");
                 continue;
             }
-            if (get_age > 130) {
+            if (get_age > 130) { //131歳以上だった場合無限ループ
+                TimeUnit.MILLISECONDS.sleep(1500);
                 System.out.println(prefix + "あんた歳取りすぎて無い？");
+                TimeUnit.MILLISECONDS.sleep(2000);
                 System.out.println(prefix + "年齢差でマウント取りたいからって");
+                TimeUnit.MILLISECONDS.sleep(2000);
                 System.out.println(prefix + "そんな詐称するのは見苦しいわよ!!");
+                TimeUnit.MILLISECONDS.sleep(1750);
                 System.out.println(prefix + "結局あんたは何歳なのよ");
             } else {
                 break;
             }
-        } while(get_age > 130);
+        }
 
 
 
@@ -107,7 +115,7 @@ public class Fortune {
                 break;
 
             default:
-                TimeUnit.MILLISECONDS.sleep(300);
+                TimeUnit.MILLISECONDS.sleep(1000);
                 System.out.println(prefix + "天邪鬼みたいな回答してんじゃねぇよ");
                 TimeUnit.MILLISECONDS.sleep(3000);
                 System.out.println(prefix + "こんなところですら人を信用出来ないから不幸だなんだ騒いで迷惑かけてるんだろ？");
