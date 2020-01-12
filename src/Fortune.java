@@ -28,7 +28,21 @@ public class Fortune {
         TimeUnit.MILLISECONDS.sleep(6000);
         System.out.println(prefix + "あなたの名前は何かしら？");
 
+        while (get_name.equals("")) { //名前が何も無い場合無限ループ
             get_name = new java.util.Scanner(System.in).nextLine();
+            if (get_name.equals("")) {
+                TimeUnit.MILLISECONDS.sleep(500);
+                System.out.println(prefix + "無言貫き通されてもあたし困るんですけど!!");
+                TimeUnit.MILLISECONDS.sleep(2750);
+                System.out.println(prefix + "コミュ障クソ陰キャカス野郎でも");
+                TimeUnit.MILLISECONDS.sleep(3000);
+                System.out.println(prefix + "自分の名前くらいは名乗ってくれよぉ!!");
+                TimeUnit.MILLISECONDS.sleep(2000);
+                System.out.println(prefix + "結局あんたの名前はなんなのよ");
+            } else {
+                break;
+            }
+        }
 
         TimeUnit.MILLISECONDS.sleep(1000);
         System.out.println(prefix + get_name + "さんね・・・");

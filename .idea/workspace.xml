@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a488897b-55d5-4563-b8f8-90ecce6d0cb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Fortune.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fortune.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fortune.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578837235886</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="インチキ占いコード(製作中)を追加">
+      <created>1578846967417</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578846967417</updated>
+    </task>
+    <task id="LOCAL-00011" summary="インチキ占いコード(製作中)を追加">
+      <created>1578846997775</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578846997775</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,7 +172,8 @@
     <MESSAGE value="サンプル制作" />
     <MESSAGE value="Mainクラスがぐちゃぐちゃになってきたので、&#10;サブに使わないコードを輸送" />
     <MESSAGE value="Main Class はコードの実験場に&#10;Sub Class はコードのアーカイブに使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Class はコードの実験場に&#10;Sub Class はコードのアーカイブに使用" />
+    <MESSAGE value="インチキ占いコード(製作中)を追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="インチキ占いコード(製作中)を追加" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1578611284611">
@@ -176,35 +189,35 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="436" y="159" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1440.822@0.23.1440.822" timestamp="1578612224361" />
-    <state x="344" y="14" key="CommitChangelistDialog2" timestamp="1578846967490">
+    <state x="344" y="14" key="CommitChangelistDialog2" timestamp="1578846997617">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="344" y="14" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578846967490" />
+    <state x="344" y="14" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578846997617" />
     <state x="344" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578612321234" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578846503415">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578848815038">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578846503415" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578846503414">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578848815038" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578848815036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578846503414" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578846503413">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578848815036" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578848815036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578846503413" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578846503414">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578848815036" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578848815037">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578846503414" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578848815037" />
     <state x="487" y="168" key="RollbackChangesDialog" timestamp="1578840462137">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="487" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578840462137" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578837237984">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578846999829">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578837237984" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578846999829" />
     <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578612323789" />
     <state x="0" y="23" width="1440" height="822" key="com.intellij.ide.util.TipDialog" timestamp="1578611701077">
       <screen x="0" y="23" width="1440" height="822" />
