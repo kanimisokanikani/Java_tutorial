@@ -4,6 +4,7 @@
     <list default="true" id="a488897b-55d5-4563-b8f8-90ecce6d0cb9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fortune.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fortune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578851778751</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="禁止単語登録の処理を考え中・・・">
+      <created>1578887212929</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578887212929</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,7 +205,8 @@
     <MESSAGE value="例外処理 (名前を名乗らない場合無限ループ) を追加などなど" />
     <MESSAGE value="例外処理 (数字以外入力 と 年齢詐称 (300歳など現実にはいない年齢)はループするようにした)&#10; を追加した" />
     <MESSAGE value="無限ループを while (true) に変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="無限ループを while (true) に変更" />
+    <MESSAGE value="禁止単語登録の処理を考え中・・・" />
+    <option name="LAST_COMMIT_MESSAGE" value="禁止単語登録の処理を考え中・・・" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1578611284611">
@@ -213,39 +222,39 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="436" y="159" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1440.822@0.23.1440.822" timestamp="1578612224361" />
-    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1578851778585">
+    <state x="409" y="0" key="CommitChangelistDialog2" timestamp="1578887212741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578851778585" />
+    <state x="409" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578887212741" />
     <state x="344" y="36" key="CommitChangelistDialog2/0.23.1440.822@0.23.1440.822" timestamp="1578612321234" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578883897691">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578889271197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578883897691" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578889271197" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1578851288348" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578883897690">
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578889271194">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578883897690" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578889271194" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1578851288339" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578883897689">
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578889271193">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578883897689" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578889271193" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1578851288336" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578883897690">
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578889271194">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578883897690" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578889271194" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1578851288342" />
     <state x="487" y="168" key="RollbackChangesDialog" timestamp="1578840462137">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="487" y="168" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1578840462137" />
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578851780041">
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2" timestamp="1578887214101">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578851780041" />
+    <state x="320" y="165" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578887214101" />
     <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.23.1440.822@0.23.1440.822" timestamp="1578612323789" />
     <state x="0" y="23" width="1440" height="822" key="com.intellij.ide.util.TipDialog" timestamp="1578611701077">
       <screen x="0" y="23" width="1440" height="822" />
