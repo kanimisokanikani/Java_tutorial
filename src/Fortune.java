@@ -42,7 +42,6 @@ public class Fortune {
             } else {
                 break;
             }
-        }
 
         TimeUnit.MILLISECONDS.sleep(1000);
         System.out.println(prefix + get_name + "さんね・・・");
@@ -85,14 +84,17 @@ public class Fortune {
             }
         }
 
+        TimeUnit.MILLISECONDS.sleep(1750);
+        System.out.println(prefix + "ふーん・・・");
+        TimeUnit.MILLISECONDS.sleep(1750);
+        System.out.println(prefix + get_age + "歳なんだ");
 
 
         ///////////////
         // 占いタイム //
         ///////////////
 
-
-        TimeUnit.MILLISECONDS.sleep(1000);
+        TimeUnit.MILLISECONDS.sleep(3000);
         System.out.println(prefix + "何を占ってほしいの？ ([]の中の文字を入力してください)");
         System.out.println("[恋愛]について [仕事]について [健康]について [周囲からの評価]について");
         String get_fortune = new java.util.Scanner(System.in).nextLine();
