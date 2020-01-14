@@ -55,5 +55,20 @@ public class Sub {
         } else {
             System.out.println("パスワードが間違っています");
         }
+
+        int[] score; //intがいっぱい入る可能性がある箱を制作
+        score = new int[5]; //intの箱には0~4の番地を作った (箱の数は５個)
+        score[4] =19; //int箱4番地(５番目)に１９を代入
+        int score_check = score.length; //箱の名前.lengthで箱の数を調べられる
+        System.out.println(score_check);
+        System.out.println(score[4]);
+        System.out.println(score[0]); //代入していなくても0がデフォルトではいっている
+        int[] score1 = new int[] { 10, 30, 50 }; //省略法は２個ある
+        int[] score2 = { 20, 30, 40 }; //こっちの方が入力が少ないし分かりやすいと思う
+
+        int[] custom_for_value_test = { 12, 121, 241, 5252, 32 };
+        for (int value : custom_for_value_test) { //基本配列の表示にしようするみたい？
+            System.out.println(value);            //別の使い方、使い道がわからない
+        }
     }
 }
