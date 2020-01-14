@@ -1,3 +1,4 @@
+//コードのアーカイブ場所
 public class Sub {
     public static void main(String[] args) {
         int money = 100;
@@ -70,5 +71,47 @@ public class Sub {
         for (int value : custom_for_value_test) { //基本配列の表示にしようするみたい？
             System.out.println(value);            //別の使い方、使い道がわからない
         }
+
+        String word_length_check = "明太子と共生していたPresley";
+        System.out.println(word_length_check.length()); //String変数.length で文字の長さを図る命令
+
+        int [] [] number_box_1 = new int [3] [3]; //3x3の数字の箱を用意
+        number_box_1 [0] [0] = 10; //左上から右下にかけて入れていっている
+        number_box_1 [0] [1] = 20;
+        number_box_1 [0] [2] = 30;
+        number_box_1 [1] [0] = 40;
+        number_box_1 [1] [1] = 50;
+        number_box_1 [1] [2] = 60;
+        number_box_1 [2] [0] = 70;
+        number_box_1 [2] [1] = 80;
+        number_box_1 [2] [2] = 90;
+        System.out.println(number_box_1 [1] [1]); //使い道は、マインスイーパーや○✖︎ゲームなど、二次元の箱を開けたりする時に使いそう
+
+        int [] [] number_box_2 = { { 10, 20, 30 }, { 40, 50 }, { 60, 70, 80 } };
+        //今配列は、
+        //■ ■ ■
+        // ■ ■
+        //■ ■ ■
+        //こうなっている
+        System.out.println(number_box_2.length);
+        //これは、
+        //■ ■ ■ 1
+        // ■ ■ 2
+        //■ ■ ■ 3
+        //と横の列が何個あるのかを調べている
+        System.out.println(number_box_2[0].length);
+        //これは、
+        //1 2 3
+        //■ ■ ■
+        // ■ ■
+        //■ ■ ■
+        //と一列目に数字が何個あるのかを調べている
+        System.out.println(number_box_2[1].length);
+        //これは、
+        //■ ■ ■
+        // 1 2
+        // ■ ■
+        //■ ■ ■
+        //と二列目に数字が何個あるのかを調べている
     }
 }
